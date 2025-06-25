@@ -1,8 +1,109 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miltonian&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #9FA0C3;
 }
 
-.App-logo {
+.App {
+  text-align: center;
+  background-color: #9FA0C3;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 0;
+  
+}
+
+.card {
+  background-color: #8B687F;
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 65%;
+    margin: auto;
+}
+
+.level-button {
+  display: flex;
+  
+  margin-top: 20px;
+}
+
+.option {
+  padding: 19px;
+  margin: 50px 65px;
+  width: 300px;
+  height: 90px;
+  border-radius: 55px;
+  background-color: #7B435B;
+  color: white;
+  font-family: 'Sour Gummy', sans-serif;
+  font-size: 30px;
+}
+
+.option:hover {
+  background-color: #735EAB;
+  cursor: pointer;
+}
+
+.egg-image {
+  display: flex;
+  box-shadow: 120px 60px 0 0 rgba(255, 255, 255, 1), 90px 90px 0 0 rgba(255, 255, 255, 1), 120px 90px 0 0 rgba(255, 255, 255, 1), 150px 90px 0 0 rgba(255, 255, 255, 1), 60px 120px 0 0 rgba(255, 255, 255, 1), 90px 120px 0 0 rgba(255, 255, 255, 1), 120px 120px 0 0 rgba(255, 152, 0, 1), 150px 120px 0 0 rgba(255, 255, 255, 1), 180px 120px 0 0 rgba(255, 255, 255, 1), 60px 150px 0 0 rgba(255, 255, 255, 1), 90px 150px 0 0 rgba(255, 152, 0, 1), 120px 150px 0 0 rgba(255, 152, 0, 1), 150px 150px 0 0 rgba(255, 152, 0, 1), 180px 150px 0 0 rgba(255, 255, 255, 1), 60px 180px 0 0 rgba(255, 255, 255, 1), 90px 180px 0 0 rgba(255, 255, 255, 1), 120px 180px 0 0 rgba(255, 152, 0, 1), 150px 180px 0 0 rgba(255, 255, 255, 1), 180px 180px 0 0 rgba(255, 255, 255, 1), 90px 210px 0 0 rgba(255, 255, 255, 1), 120px 210px 0 0 rgba(255, 255, 255, 1), 150px 210px 0 0 rgba(255, 255, 255, 1);
+  height: 30px;
+  width: 30px;
+  margin-left: 310px;
+  margin-top: -50px;
+  padding: 0px;
+  
+}
+
+.timer {
+  font-family: 'Sour Gummy', sans-serif;
+  font-size: 15px;
+  color: #AED9E0;
+  background-color: #201020;
+  margin-top: 20px;
+  margin-left: 570px;
+  border-color: #9FA0C3;
+  border-width: 5px;
+  border-style: solid;
+  width: 317px;
+  height: 93px;
+  display: inline-block;
+}
+
+.timer h1 {
+  font-family: 'Miltonian', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+  margin: 0;
+}
+
+.timer button {
+  margin-top: 50px;
+  height: 43px;
+  width: 125px;
+  background-color: #201020;
+  color: #FFFFFF;
+  font-family: 'Sour Gummy', sans-serif;
+  font-size: 25px;
+}
+
+.timer button:hover {
+  background-color: #735EAB;
+  cursor: pointer;
+}
+
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +136,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import Star from './star.svg';
 import './App.css';
+import { MdOutlineStarBorder } from 'react-icons/md';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="card">
+      
+        <div className="level-buttons">
+          <button className="option"><MdOutlineStarBorder width="35" height="35" viewBox="0 0 25 19" />Soft-boiled</button>
+          <button className="option"><MdOutlineStarBorder width="35" height="35" viewBox="0 0 25 19" />Jammy</button>
+          <button className="option"><MdOutlineStarBorder width="35" height="35" viewBox="0 0 25 19" />Hard-boiled</button>
+        </div>
+        <div className="egg-image">
+          <div className="pixelart-to-css">
+          </div>
+        </div>
+        <div className="timer">
+          <h1>00:00</h1>
+          <button className="start">Start</button>
+        </div>
+       
+      </div>
     </div>
   );
 }
