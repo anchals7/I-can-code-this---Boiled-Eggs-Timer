@@ -1,5 +1,7 @@
 #### PROJECT DEMO  - https://youtu.be/DD4hYpyl1As
 
+#### FIGMA DESIGN - https://www.figma.com/design/WwrcTb6W6NajSt8G905Wwi/Boiled-Eggs-Timer?node-id=2-2&t=kl1nADhyuzlbiZm2-1
+
 
 # I can code this - Boiled Eggs Timer
 
