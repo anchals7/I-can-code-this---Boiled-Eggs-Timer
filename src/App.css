@@ -52,14 +52,37 @@ html, body {
 }
 
 .egg-image {
-  display: flex;
+  display: inline-block;
+  height: 370px;
+  width: 370px;
+  
+  margin-right: 190px;
+  padding: 0px;
+  
+}
+
+.soft-boiled-pixel {
   box-shadow: 120px 60px 0 0 rgba(255, 255, 255, 1), 90px 90px 0 0 rgba(255, 255, 255, 1), 120px 90px 0 0 rgba(255, 255, 255, 1), 150px 90px 0 0 rgba(255, 255, 255, 1), 60px 120px 0 0 rgba(255, 255, 255, 1), 90px 120px 0 0 rgba(255, 255, 255, 1), 120px 120px 0 0 rgba(255, 152, 0, 1), 150px 120px 0 0 rgba(255, 255, 255, 1), 180px 120px 0 0 rgba(255, 255, 255, 1), 60px 150px 0 0 rgba(255, 255, 255, 1), 90px 150px 0 0 rgba(255, 152, 0, 1), 120px 150px 0 0 rgba(255, 152, 0, 1), 150px 150px 0 0 rgba(255, 152, 0, 1), 180px 150px 0 0 rgba(255, 255, 255, 1), 60px 180px 0 0 rgba(255, 255, 255, 1), 90px 180px 0 0 rgba(255, 255, 255, 1), 120px 180px 0 0 rgba(255, 152, 0, 1), 150px 180px 0 0 rgba(255, 255, 255, 1), 180px 180px 0 0 rgba(255, 255, 255, 1), 90px 210px 0 0 rgba(255, 255, 255, 1), 120px 210px 0 0 rgba(255, 255, 255, 1), 150px 210px 0 0 rgba(255, 255, 255, 1);
   height: 30px;
   width: 30px;
-  margin-left: 310px;
-  margin-top: -50px;
-  padding: 0px;
-  
+}
+
+.jammy-pixel {
+  box-shadow: 120px 60px 0 0 rgba(255, 255, 255, 1), 90px 90px 0 0 rgba(255, 255, 255, 1), 120px 90px 0 0 rgba(255, 255, 255, 1), 150px 90px 0 0 rgba(255, 255, 255, 1), 60px 120px 0 0 rgba(255, 255, 255, 1), 90px 120px 0 0 rgba(255, 255, 255, 1), 120px 120px 0 0 rgba(255, 193, 7, 1), 150px 120px 0 0 rgba(255, 255, 255, 1), 180px 120px 0 0 rgba(255, 255, 255, 1), 60px 150px 0 0 rgba(255, 255, 255, 1), 90px 150px 0 0 rgba(255, 193, 7, 1), 120px 150px 0 0 rgba(255, 193, 7, 1), 150px 150px 0 0 rgba(255, 193, 7, 1), 180px 150px 0 0 rgba(255, 255, 255, 1), 60px 180px 0 0 rgba(255, 255, 255, 1), 90px 180px 0 0 rgba(255, 255, 255, 1), 120px 180px 0 0 rgba(255, 193, 7, 1), 150px 180px 0 0 rgba(255, 255, 255, 1), 180px 180px 0 0 rgba(255, 255, 255, 1), 90px 210px 0 0 rgba(255, 255, 255, 1), 120px 210px 0 0 rgba(255, 255, 255, 1), 150px 210px 0 0 rgba(255, 255, 255, 1);
+  height: 30px;
+  width: 30px;
+}
+
+.hard-boiled-pixel {
+  box-shadow: 120px 60px 0 0 rgba(255, 255, 255, 1), 90px 90px 0 0 rgba(255, 255, 255, 1), 120px 90px 0 0 rgba(255, 255, 255, 1), 150px 90px 0 0 rgba(255, 255, 255, 1), 60px 120px 0 0 rgba(255, 255, 255, 1), 90px 120px 0 0 rgba(255, 255, 255, 1), 120px 120px 0 0 rgba(255, 235, 59, 1), 150px 120px 0 0 rgba(255, 255, 255, 1), 180px 120px 0 0 rgba(255, 255, 255, 1), 60px 150px 0 0 rgba(255, 255, 255, 1), 90px 150px 0 0 rgba(255, 235, 59, 1), 120px 150px 0 0 rgba(255, 235, 59, 1), 150px 150px 0 0 rgba(255, 235, 59, 1), 180px 150px 0 0 rgba(255, 255, 255, 1), 60px 180px 0 0 rgba(255, 255, 255, 1), 90px 180px 0 0 rgba(255, 255, 255, 1), 120px 180px 0 0 rgba(255, 235, 59, 1), 150px 180px 0 0 rgba(255, 255, 255, 1), 180px 180px 0 0 rgba(255, 255, 255, 1), 90px 210px 0 0 rgba(255, 255, 255, 1), 120px 210px 0 0 rgba(255, 255, 255, 1), 150px 210px 0 0 rgba(255, 255, 255, 1);
+  height: 30px;
+  width: 30px;
+}
+
+.egg-photo {
+  width: 370px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .timer {
@@ -67,14 +90,20 @@ html, body {
   font-size: 15px;
   color: #AED9E0;
   background-color: #201020;
-  margin-top: 20px;
-  margin-left: 570px;
   border-color: #9FA0C3;
   border-width: 5px;
   border-style: solid;
   width: 317px;
   height: 93px;
   display: inline-block;
+}
+
+.separator {
+  height: 375px;
+  width: 320px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 50px;
 }
 
 .timer h1 {
