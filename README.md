@@ -25,6 +25,5 @@ You may also see any lint errors in the console.
 ## Questions and Feedback
 
 Feel free to reach out to me for any feedback, suggestions, or comments. 
+    https://www.linkedin.com/in/anchal-developer/
 
-https://www.linkedin.com/in/anchal-developer/
-anchals.cecs@gmail.com
